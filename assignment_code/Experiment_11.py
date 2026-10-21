@@ -36,4 +36,5 @@ plt.imshow(boundry,cmap="gray")
 
 plt.tight_layout()
 
+
 plt.show()
