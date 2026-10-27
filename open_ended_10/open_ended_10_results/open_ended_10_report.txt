@@ -1,0 +1,36 @@
+OPEN-ENDED 10: FREQUENCY-DOMAIN PROCESSING
+===========================================================================
+No clean reference image is assumed.
+Sharpness, entropy and edge density are descriptive indicators.
+
+IMAGE: Moon.jpg
+---------------------------------------------------------------------------
+Method                         Sharpness    Entropy   Edge Density %
+Original                          719.89      3.340           26.00
+Gaussian Low-Pass                   5.71      3.629           10.16
+Butterworth Low-Pass                3.55      3.660           20.48
+Gaussian High-Boost                20.50      3.532           10.16
+Butterworth High-Boost             11.08      3.626           20.48
+Gaussian smoothing time: 0.3888 seconds
+Butterworth smoothing time: 0.2831 seconds
+Gaussian high-boost time: 0.2824 seconds
+Butterworth high-boost time: 0.2314 seconds
+Original Canny thresholds: 0, 1
+Gaussian boundary Canny thresholds: 0, 50
+Butterworth boundary Canny thresholds: 0, 1
+
+IMAGE: oggy.jpg
+---------------------------------------------------------------------------
+Method                         Sharpness    Entropy   Edge Density %
+Original                         1223.64      7.025           14.22
+Gaussian Low-Pass                   7.41      6.863            4.71
+Butterworth Low-Pass                4.88      6.909            3.42
+Gaussian High-Boost                28.81      6.988            4.71
+Butterworth High-Boost             18.93      7.009            3.42
+Gaussian smoothing time: 0.3006 seconds
+Butterworth smoothing time: 0.2358 seconds
+Gaussian high-boost time: 0.4617 seconds
+Butterworth high-boost time: 0.3862 seconds
+Original Canny thresholds: 73, 148
+Gaussian boundary Canny thresholds: 73, 147
+Butterworth boundary Canny thresholds: 73, 147
