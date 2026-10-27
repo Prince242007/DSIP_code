@@ -1,0 +1,30 @@
+OPEN-ENDED 5: NON-LINEAR IMAGE FILTERING
+=================================================================
+Metrics are indicators, not absolute quality scores.
+No clean reference image is assumed.
+
+IMAGE: Moon.jpg
+-----------------------------------------------------------------
+Method                    Sharpness    Entropy     Edge %
+Original                     719.89      3.340      5.83
+Median 3x3                   237.14      3.299      3.82
+Median 5x5                   134.62      3.269      1.72
+Median 7x7                   110.02      3.238      0.94
+Bilateral                    284.21      3.328      1.68
+Alpha-trimmed                102.43      3.350      3.55
+Morphological                228.49      3.303      3.37
+Bilateral execution time: 0.0438 seconds
+Alpha-trimmed execution time: 0.2064 seconds
+
+IMAGE: oggy.jpg
+-----------------------------------------------------------------
+Method                    Sharpness    Entropy     Edge %
+Original                    1223.64      7.025      7.08
+Median 3x3                   429.06      6.925      5.23
+Median 5x5                   216.95      6.865      3.96
+Median 7x7                   138.82      6.826      3.28
+Bilateral                    468.14      6.939      4.17
+Alpha-trimmed                199.21      6.923      5.22
+Morphological                376.18      6.846      5.17
+Bilateral execution time: 0.0306 seconds
+Alpha-trimmed execution time: 0.3764 seconds
